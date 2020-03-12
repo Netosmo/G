@@ -1,0 +1,416 @@
+html, body {
+  font-family: Helvetica;
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  background-image: url("../images/ic_bkg2.png");
+  background-color: black;
+  background-size: cover;
+  background-position: center top;
+}
+/* Aquí va a comenzar nav bar 1 */
+.nav1 {
+  background-color:#000000;
+  display: flex;
+  padding: 15px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  /* flex sirve para crear una lista horizontal */
+  }
+
+nav li{
+  padding-left:20px;
+  list-style: none;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color:#13E21A;
+}
+
+a{color: inherit;
+}
+
+.nav_options{
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  padding-top: 10px;
+
+}
+
+.datas{
+  margin-top: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid #e6e5e9;
+  box-sizing:border-box;
+  display: flex;
+}
+  .buscador{
+
+    justify-content:flex-end;
+    padding-right: 450px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+  }
+  /* Aquí acaba el nav bar 1 */
+
+  /* Aquí va a comenzar nav bar 2 */
+  .nav2 {
+    background-color:#13E21A;
+    padding: 5px;
+    justify-content: space-between;
+  }
+  /* Aquí acaba el nav bar 2 */
+
+  /* Aquí va a comenzar nav bar 4 */
+
+  .nav4{
+    background-color:#13E21A;
+    padding: 5px;
+
+  }
+/* Aquí acaba el nav bar 4 */
+
+  .main_section{
+
+  }
+
+  .titulo_{
+  font-family: Plateia;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+
+
+  }
+
+.product{
+
+}
+  .product .content {
+
+  padding: 15px;
+  text-align: center;
+
+}
+
+.img_content{
+  box-shadow: 0px 15px 20px 13px #878787;
+}
+
+  .main_button1 {
+  background-color:#13E21A;
+  width: 100px;
+  padding: 10px;
+  font-size: 12px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: #191919;
+  border: 0px;
+  border-radius: 5px;
+  position: absolute;
+  top: 102%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+
+
+}
+  .main_button2 {
+    background-color:#13E21A;
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #191919;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 102%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+
+}
+
+  .products{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .main_sectionb{
+    padding-top: 30px;
+
+  }
+
+  .beneficios{
+    display: flex;
+    justify-content: center;
+  }
+  .beneficio1{
+
+
+  width: 330px;
+  height: 460px;
+  background-color: #F5F5F5;
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0px 15px 20px 13px #878787;
+  }
+
+  .beneficio2{
+
+  width: 330px;
+  height: 460px;
+  background-color: #F5F5F5;
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0px 15px 20px 13px #878787;
+  }
+
+  .beneficio3{
+
+  width: 330px;
+  height: 460px;
+  background-color: #F5F5F5;
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0px 15px 20px 13px #878787;
+  }
+
+  .bene_titulo{
+    font-family: Segoe UI;
+    font-weight: bold;
+  }
+
+  .text_beneficio{
+    font-family: Segoe UI;
+    font-size: 19px;
+    color: #616161;
+  }
+.img_contbene{
+  padding-top: 25px;
+}
+
+.nav3{
+background-color:#5A5A5A;
+
+height: 65px;
+
+justify-content: center;
+}
+
+.menciones{
+  background-image: url("../images/ic_bkgmenci.svg");
+  background-size: cover;
+  background-position: center top;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+.titulo_M{
+  font-family: Plateia;
+  color: #F2F2F2;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.men_titulo{
+  font-family: Segoe UI;
+  color: #F2F2F2;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.nombre_mencion{
+  display: flex;
+  justify-content: center;
+}
+
+.mencion{
+  display: flex;
+  width:auto;
+  height: auto;
+  background-color: #191919;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 65px;
+  text-align: center;
+
+}
+
+.img_contmen{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.titulo_mencion{
+  font-family: Segoe UI;
+  font-size: 19px;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.desc_mencion{
+  font-family: Segoe UI;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.email_{
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  padding-top: 10px;
+}
+
+.futer{
+  display:flex;
+
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: #13E21A;
+  padding: 10px;
+  margin-top: 180px;
+  color: white;
+}
+
+
+
+.option{
+  font-family: Segoe UI;
+  font-size: 15px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+.contacto1{
+  justify-content: center;
+}
+
+.form_options{
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 12px;
+  justify-content: center;
+  padding-top: 10px;
+
+}
+
+.formulario1{
+  justify-content: center;
+  text-align: center;
+}
+.datass{
+  margin-top: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid #e6e5e9;
+  box-sizing:border-box;
+  justify-content: center;
+}
+
+.datasss{
+  margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid #e6e5e9;
+  box-sizing:border-box;
+  justify-content: center;
+}
+
+.formulario2{
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+.buffs_{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.centered_name1{
+
+  font-family: Plateia;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  top: 87%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+}
+
+.centered_name2{
+
+  font-family: Plateia;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  top: 87%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}
+
+.centered_price1{
+
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 95%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+}
+
+.centered_price2{
+
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 95%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.img_{
+  padding-right: 50px;
+}

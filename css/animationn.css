@@ -1,0 +1,127 @@
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.img_content:hover {
+  opacity:0;
+}
+
+.fadeIn {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  /* de ida y regreso va a estar la animación*/
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  /* Pack que sirve para acoplar las animaiones a todos los navegadores. */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.fadeInDown {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  /* de ida y regreso va a estar la animación*/
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  /* Pack que sirve para acoplar las animaiones a todos los navegadores. */
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+    -webkit-transform: translate3d(0,-100%,0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+  }
+}
+
+.fadeInUp {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+  /* de ida y regreso va a estar la animación*/
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  /* Pack que sirve para acoplar las animaiones a todos los navegadores. */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0,100%,0);
+    -webkit-transform: translate3d(0,100%,0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+  }
+}
+
+
+.fadeInRightBig {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-name: fadeInRightBig;
+  /* de ida y regreso va a estar la animación*/
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInRightBig;
+  /* Pack que sirve para acoplar las animaiones a todos los navegadores. */
+}
+
+@keyframes fadeInRightBig {
+  from {
+    opacity: 0;
+    transform: translateX(2000px);
+    -webkit-transform: translateX(2000px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
